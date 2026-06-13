@@ -12,12 +12,14 @@ public class HomeController {
 		
 		
 		int result  = test2(22);
+		test3();
 		System.out.print(result);
 		
 		return "Hello from HomeController";
 		
 	}
 
+	//PayPay Japan
 	int test2(int n) {
 		int result=0;		
 		for(int i=0; i<=n; i++) {
@@ -32,8 +34,21 @@ public class HomeController {
 				}
 			}
 		}
-		
 		return result;
 		
+	}
+
+	//TCS June 2026
+	void test3(){
+		int[] arr = {5,6,1,10,1,4};
+
+		int inputValue = 7;
+		for(int i=0;i<arr.length;i++) {
+			for(int j=i+1; j<arr.length; j++) {
+				if(arr[i]+arr[j] ==  inputValue) {
+					System.out.println("Position is " + i + " " + j);
+				}
+			}
+		}
 	}
 }
