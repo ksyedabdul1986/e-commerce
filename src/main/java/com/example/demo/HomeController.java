@@ -8,7 +8,7 @@ public class HomeController {
 	
 	@GetMapping("/")
 	public String test() {
-		System.out.println("HomeController is executed !!!!!!!");
+		System.out.println("HomeController is executed !!!!!!!!!!!");
 		
 		
 		int result  = test2(22);
